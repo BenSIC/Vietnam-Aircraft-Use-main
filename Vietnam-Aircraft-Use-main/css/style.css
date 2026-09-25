@@ -1,0 +1,50 @@
+header {
+    background-color: green;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+body {
+    background-color: lightgray;
+    font-family: Arial, sans-serif;
+}
+img {
+    width: 50%;
+    border-radius: 8px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.green {
+  color: green;
+}
+/* Blue text color used for support aircraft */
+.blue {
+  color: blue;
+}
+/* Red text color used for headers and attack aircraft*/
+.red {
+  color: red;
+}
+#big {
+  font-size: 40px;
+}
+.flex-container {
+  display: flex;
+}
+
+.box {
+  background-color: lightgray;
+  padding: 20px;
+  margin: 10px;
+}
+/* Flex container for ordered and unordered lists */
+#ol_li {
+  display: flex;
+  gap: 20px;
+}
+
+#ol, #ol_li {
+  flex: 1;
+}
