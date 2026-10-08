@@ -6,7 +6,7 @@ header {
     font-weight: bold;
 }
 body {
-    background-color: lightgray;
+    background-color: rgb(194, 205, 142);
     font-family: Arial, sans-serif;
 }
 img {
@@ -25,7 +25,19 @@ img {
 }
 /* Red text color used for headers and attack aircraft*/
 .red {
-  color: red;
+  color: rgb(116, 1, 1);
+}
+/*used for f-4 aircraft on page 2 */
+.purple{
+  color: purple;
+}
+/*used for f100 aircraft on page 2 */
+.orange {
+  color: orange;
+}
+/*used for A7 aircraft on page 2 */
+.lblue {
+  color: lightblue;
 }
 #big {
   font-size: 40px;
@@ -33,7 +45,12 @@ img {
 .flex-container {
   display: flex;
 }
-
+      @media (max-width: 600px) {
+        .flex-container {
+          flex-direction: column;
+          align-items: center;
+        }
+      }
 .box {
   background-color: lightgray;
   padding: 20px;
@@ -47,4 +64,9 @@ img {
 
 #ol, #ol_li {
   flex: 1;
+}
+@media (max-width: 600px) {
+  body {
+    font-size: 16px;
+  }
 }
