@@ -42,7 +42,7 @@ img {
 #big {
   font-size: 40px;
 }
-.flex-container {
+/*
   display: flex;
 }
       @media (max-width: 600px) {
